@@ -13,7 +13,7 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Scripts
+## Available scripts
 
 | Command | What it does |
 | --- | --- |
