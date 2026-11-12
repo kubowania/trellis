@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "node --test lib/projects.test.mjs"
   },
   "dependencies": {
     "next": "16.4.6",
@@ -16,5 +17,8 @@
   "devDependencies": {
     "eslint": "^9",
     "eslint-config-next": "16.4.6"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }
