@@ -27,13 +27,7 @@ export default function ProjectsPage() {
       </div>
 
       {loading ? null : projects.length === 0 ? (
-        <div className="projects-empty">
-          <h2>No projects yet</h2>
-          <p>A project is one piece of work your team plans and tracks together.</p>
-          <Link href="/projects/new" className="btn">
-            Create your first project
-          </Link>
-        </div>
+        <div className="projects-empty" />
       ) : (
         <div className="project-list">
           {projects.map((project) => (

@@ -240,21 +240,6 @@ h2 {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 32px;
-  display: grid;
-  place-content: center;
-  justify-items: center;
-  gap: 12px;
-  text-align: center;
-}
-
-.projects-empty h2 {
-  margin-bottom: 0;
-}
-
-.projects-empty p {
-  color: var(--muted);
-  max-width: 420px;
 }
 
 /* Pricing */
