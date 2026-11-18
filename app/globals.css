@@ -126,7 +126,7 @@ h2 {
   border: none;
   border-radius: var(--radius);
   background: var(--accent);
-  color: #fff;
+  color: red;
   font: inherit;
   font-weight: 500;
   cursor: pointer;
@@ -144,7 +144,7 @@ h2 {
 
 .btn-secondary {
   background: var(--surface);
-  color: var(--text);
+  color: red;
   border: 1px solid var(--border);
 }
 
