@@ -240,6 +240,23 @@ h2 {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 32px;
+  text-align: center;
+}
+
+.projects-empty p {
+  max-width: 440px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.projects-empty .btn {
+  margin-top: 8px;
 }
 
 /* Pricing */
